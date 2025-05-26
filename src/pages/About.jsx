@@ -18,16 +18,25 @@ function About() {
             I'm a software engineer with a passion for building web applications. I love coding and learning new technologies.
           </p>
           <hr />
-          <p className="text-center mb-1">Programming Skills:</p>
+          <p className="text-center mb-1">Programming Skill:</p>
           <div className="d-flex justify-content-center gap-3 gap-md-4 flex-wrap">
-            <img src="/pictures/javascript.png" alt="JavaScript" style={{ width: "36px", height: "36px", objectFit: "cover" }}/>
-            <img src="/pictures/php.png" alt="PHP" style={{ width: "36px", height: "36px", objectFit: "cover" }}/>
-            <img src="/pictures/html.png" alt="HTML" style={{ width: "36px", height: "36px", objectFit: "cover" }}/>
-            <img src="/pictures/css.png" alt="CSS" style={{ width: "36px", height: "36px", objectFit: "cover" }}/>
+            <img src="/pictures/skills/javascript.png" alt="JavaScript" style={{ width: "36px", height: "36px", objectFit: "cover" }}/>
+            <img src="/pictures/skills/express_js.png" alt="Express.js" style={{ width: "36px", height: "36px", objectFit: "cover" }}/>
+            <img src="/pictures/skills/php.png" alt="PHP" style={{ width: "36px", height: "36px", objectFit: "cover" }}/>
+            <img src="/pictures/skills/html.png" alt="HTML" style={{ width: "36px", height: "36px", objectFit: "cover" }}/>
+            <img src="/pictures/skills/css.png" alt="CSS" style={{ width: "36px", height: "36px", objectFit: "cover" }}/>
+            <img src="/pictures/skills/nodejs.png" alt="Node.js" style={{ width: "36px", height: "36px", objectFit: "contain" }}/> 
+            <img src="/pictures/skills/vite.png" alt="Vite" style={{ width: "36px", height: "36px", objectFit: "cover" }}/>
+            <img src="/pictures/skills/react.png" alt="React" style={{ width: "36px", height: "36px", objectFit: "cover" }}/>
+            <img src="/pictures/skills/tailwind_css.png" alt="Tailwind CSS" style={{ width: "36px", height: "36px", objectFit: "contain" }}/>
+            <img src="/pictures/skills/bootstrap_css.png" alt="Bootstrap" style={{ width: "36px", height: "36px", objectFit: "cover" }}/>
           </div>
           <hr />
           <p className="text-center mb-1">Database:</p>
-          <p className="text-center">MySQL, Mongo DB</p>
+          <div className="d-flex justify-content-center gap-3 gap-md-4 flex-wrap">
+            <img src="/pictures/skills/oracle.png" alt="Oracle" style={{ width: "36px", height: "36px", objectFit: "cover" }}/>
+            <img src="/pictures/skills/mysql.png" alt="MySQL" style={{ width: "36px", height: "36px", objectFit: "cover" }}/>
+          </div>
           <hr />
           <p className="text-center mb-1">Others:</p>
           <p className="text-center">Git, Docker, Linux command</p>
