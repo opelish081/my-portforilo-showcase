@@ -4,9 +4,9 @@ import Footer from '../component/Footer'
 function About() {
   return (
     <div className="d-flex flex-column min-vh-100">
-      <div className="flex-grow-1 d-flex flex-column justify-content-center">
-        <div className="container py-4">
-          <h1 className="text-center">About me 👾🙌🏻</h1>
+      <div className="flex-grow-1">
+        <div className="container py-4 mt-5">
+          <h1 className="text-center">About me 🙌🏻</h1>
           <img
             src="/pictures/profile.png"
             className="rounded-circle my-3 d-block mx-auto"

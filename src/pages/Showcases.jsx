@@ -4,8 +4,8 @@ function Showcases() {
   return (
     <div className="d-flex flex-column min-vh-100">
       <div className="flex-grow-1">
-        <div className="container-fluid py-4 mt-5 px-2" style={{ maxWidth: 1050 }}>
-          <h1 className="text-center mb-4">Showcases 👾</h1>
+        <div className="container-fluid py-4 px-2 mt-5" style={{ maxWidth: 1050 }}>
+          <h1 className="text-center">Showcases 👾</h1>
           <div className="row g-4">
             {/* Showcase 1 */}
             <div className="col-12 col-sm-10 col-md-6 col-lg-5 mb-4 mx-auto">

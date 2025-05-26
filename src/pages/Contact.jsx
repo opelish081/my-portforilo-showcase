@@ -6,8 +6,8 @@ function Contact() {
     <div className="d-flex flex-column min-vh-100">
       <div className="flex-grow-1 d-flex flex-column justify-content-center align-items-center">
         <div className="container">
-          <h1 className="text-center">Contact 📩</h1>
-          <div className="d-flex justify-content-center align-items-center gap-4 gap-md-5 mt-5 flex-wrap">
+          <h1 className="text-center mb-3">Contact 📩</h1>
+          <div className="d-flex justify-content-center align-items-center gap-4 gap-md-5 flex-wrap">
             <a href="https://www.instagram.com/_qianchyy/" target="_blank" rel="noopener noreferrer">
               <img src="/pictures/logos/instagram.png" alt="Instagram" style={{ width: "60px", height: "60px", objectFit: "cover" }} />
             </a>
