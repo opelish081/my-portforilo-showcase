@@ -4,11 +4,11 @@ function Showcases() {
   return (
     <div className="d-flex flex-column min-vh-100">
       <div className="flex-grow-1">
-        <div className="container py-4 mt-5" style={{ maxWidth: 1050 }}>
+        <div className="container-fluid py-4 mt-5 px-2" style={{ maxWidth: 1050 }}>
           <h1 className="text-center mb-4">Showcases 👾</h1>
-          <div className="row g-4 justify-content-center">
+          <div className="row g-4">
             {/* Showcase 1 */}
-            <div className="col-12 col-sm-6 col-lg-5">
+            <div className="col-12 col-sm-10 col-md-6 col-lg-5 mb-4 mx-auto">
               <div className="card shadow-sm h-100">
                 <div id="showcase1Carousel" className="carousel slide" data-bs-ride="carousel" data-bs-interval="2500">
                   <div className="carousel-inner rounded">
@@ -45,7 +45,7 @@ function Showcases() {
                     <span className="text-muted small">Number guessing game</span>
                   </p>
                   <hr />
-                  <div className="d-flex justify-content-center align-items-center gap-5">
+                  <div className="d-flex flex-wrap justify-content-center align-items-center gap-3 gap-md-5">
                     <a
                       href="https://team-project1-rho.vercel.app/"
                       target="_blank"
@@ -87,7 +87,7 @@ function Showcases() {
             </div>
 
             {/* Showcase 2 */}
-            <div className="col-12 col-sm-6 col-lg-5">
+            <div className="col-12 col-sm-10 col-md-6 col-lg-5 mb-4 mx-auto">
               <div className="card shadow-sm h-100">
                 <div id="showcase2Carousel" className="carousel slide" data-bs-ride="carousel" data-bs-interval="2500">
                   <div className="carousel-inner rounded">
@@ -116,7 +116,7 @@ function Showcases() {
                     <span className="text-muted small">Keyboard e-commerce site</span>
                   </p>
                   <hr />
-                  <div className="d-flex justify-content-center align-items-center gap-5">
+                  <div className="d-flex flex-wrap justify-content-center align-items-center gap-3 gap-md-5">
                     <a
                       href="https://team-project2-xi.vercel.app/"
                       target="_blank"
@@ -158,7 +158,7 @@ function Showcases() {
             </div>
 
             {/* Showcase 3 */}
-            <div className="col-12 col-sm-6 col-lg-5">
+            <div className="col-12 col-sm-10 col-md-6 col-lg-5 mb-4 mx-auto">
               <div className="card shadow-sm h-100">
                 <div id="showcase3Carousel" className="carousel slide" data-bs-ride="carousel" data-bs-interval="2500">
                   <div className="carousel-inner rounded">
@@ -223,7 +223,7 @@ function Showcases() {
                     <span className="text-muted small">Pet management application</span>
                   </p>
                   <hr />
-                  <div className="d-flex justify-content-center align-items-center gap-5">
+                  <div className="d-flex flex-wrap justify-content-center align-items-center gap-3 gap-md-5">
                     <a
                       href="https://github.com/orgs/PAWCARE-CP24KW2/repositories"
                       target="_blank"
