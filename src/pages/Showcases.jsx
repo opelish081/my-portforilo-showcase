@@ -1,3 +1,4 @@
+import 'bootstrap/dist/css/bootstrap.min.css'
 import Footer from '../component/Footer'
 
 function Showcases() {
