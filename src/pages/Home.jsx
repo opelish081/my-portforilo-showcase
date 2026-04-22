@@ -1,17 +1,35 @@
-import 'bootstrap/dist/css/bootstrap.min.css'
+import { Link } from 'react-router-dom'
 import Footer from '../component/Footer'
 
 function Home() {
   return (
-    <div className="d-flex flex-column min-vh-100">
-      <div className="flex-grow-1 d-flex flex-column justify-content-center align-items-center px-3">
-        <h1 className="text-center">Hi, I'm qián</h1>
-        <p className="text-center">Green tea lover 🍵, Marvel fan 🔨, Chocolate lover 🍫</p>
-        <p className="text-center">I enjoy playing video games 🎮, spending time with my cat Alice 🐈, and watching anime and movies 🍿</p>
-        <p className="text-center">I'm passionate about learning new things 📚</p>
-        <hr className="w-100 my-3" style={{ borderTop: "solid #000", maxWidth: 500 }} />
-        <p className="text-center">Currently living in Bangkok, Thailand 🇹🇭</p>
-      </div>
+    <div className="page-shell">
+      <section className="app-container content-split page-section">
+        <div className="surface-card page-intro reveal">
+          <span className="eyebrow">Software engineer · Bangkok</span>
+          <h1 className="section-title">Hi, I&apos;m qián.</h1>
+          <p className="lead-text">
+            My name is Sorawit Jongjamareeseethong. I enjoy building web applications and learning new things.
+          </p>
+          <p className="story-text">
+            Green tea lover, Marvel fan, chocolate lover, and someone who enjoys games, anime, movies, and time with my cat Alice.
+          </p>
+          <div className="text-chip-row" style={{ marginTop: '1.25rem' }}>
+            <span className="text-chip">Bangkok, Thailand</span>
+            <span className="text-chip">Web application focus</span>
+          </div>
+          <div className="button-row">
+            <Link className="button-primary" to="/showcases">View showcases</Link>
+            <Link className="button-secondary" to="/about">About me</Link>
+          </div>
+        </div>
+
+        <div className="surface-card story-card reveal reveal-delay-1">
+          <div className="profile-frame">
+            <img src="/pictures/profile.png" className="profile-image" alt="Sorawit profile" />
+          </div>
+        </div>
+      </section>
       <Footer />
     </div>
   )
